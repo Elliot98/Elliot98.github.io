@@ -1,0 +1,21 @@
+body {
+	background-image: url(cinema.jpg);
+	background-size: cover;
+}
+
+form {
+	position: absolute;
+	left: 35%;
+	top: 20%;
+	font-family: 'Raleway', sans-serif;
+}
+
+label {
+	color: white;
+}
+
+.btn-primary {
+	position: absolute;
+	top: 103%;
+	left: 0.01%;
+}
