@@ -1,0 +1,167 @@
+.header{
+    background-color: rgb(255, 255, 255);
+    height: 55px;
+    width: 100%;
+    position: static;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    box-shadow: 0px 5px 9px -11px;
+}
+
+.sidebar{
+    background-color: rgb(255, 255, 255);
+    height: 245%;
+    width: 65px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    box-shadow: 5px 0px 9px -11px;
+}
+
+.assist{
+    color: #999999;
+}
+
+#orders{
+    color: #51BCB3;
+}
+
+#intro {
+    font-size: 90%;
+    width: 60%;
+    color: #999999;
+}
+
+.btnStyle{
+    border-color: #51BCB3;
+    color: #51BCB3;
+    border-radius: 5px;
+}
+
+.btnStyle:hover{
+    background: #51BCB3;
+    color: white;
+}
+
+#excelb{
+    padding: 9px 20px;
+    font-size: 80%
+}
+
+.content *{
+    font-family:  'Open Sans', sans-serif;
+}
+
+.content{
+    position: absolute;
+    left: 10%;
+    top: 13%;
+    width: 80%;
+}
+
+.desc{
+    padding-top: 15px;
+    position: relative;
+    left: 3%;
+}
+
+.table{
+    padding-top: 8%;
+    position: relative;
+    left: 5%;
+}
+
+.column{
+    float: left;
+    width: 33.33%;
+    padding-bottom: 7%;
+}
+  
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.top{
+    display: flex;
+    align-content: center;
+}
+
+.top-in{
+    position: relative;
+    left: 5%;
+}
+
+.serv{
+    position: relative;
+    top: 8px;
+    color: #4A4A4A;
+}
+
+.price{
+    position: relative;
+    bottom: 9px;
+    color: #5E5E5E;
+}
+
+.about{
+    position: relative;
+    bottom: 12px;
+    font-size: 90%;
+    width: 65%;
+    justify-content: left;
+    color: #A4A4A4;
+}
+
+.orderb{
+    padding: 6px 30px;
+    font-size: 80%
+}
+
+#diff{
+    color: #51BCB3;
+}
+
+.footer{
+   text-align: center;
+   width: 90%;
+   font-size: 90%;
+}
+
+.c1{
+    visibility: hidden;
+}
+
+#footT{
+    color: #999999;
+}
+
+#spe{
+    font-size: 100%
+}
+
+.speC{
+    position: relative;
+    bottom : 14px;
+}
+
+#logo{
+    position: relative;
+    left: 130px;
+    bottom: 5px;
+}
+
+#notif{
+    position: relative;
+    left: 1000px;
+}
+
+#side{
+    position: relative;
+    left: 7px;
+    top: 100px;
+}
